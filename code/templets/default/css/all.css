@@ -1,0 +1,88 @@
+@charset "utf-8";
+/* 全局CSS定义 */
+div,img,form,ol,dl,dt,dd,ul,li,p{margin:0; padding:0; border:0;}
+body{font-family:"宋体",Arial; margin:0; padding:0; background:url("../images/bg.jpg")/*tpa=http://www.zhongyi.com/templets/default/images/bg.jpg*/ repeat left top !important; font-size:12px; color:#5A5A5A; font-weight:normal;}
+li{list-style:none;}
+img{border:0; }
+h1,h2,h3,h4,h5,h6{margin:0; padding:0; font-size:12px; font-weight:normal;}
+.care{overflow:hidden; font-size:1px; clear:both; height:1px;}
+.clear{clear:both;font-size:1px;width:1px;height:0;visibility:hidden;margin-top:0px;*margin-top:0px;_margin-top:-1px;line-height:0}
+/* 默认链接颜色 */
+a,a:visited{outline-style:none;color:#5A5A5A;text-decoration:none}
+a:hover{color:#c00;text-decoration:none;}
+
+/* 文字颜色 */
+.black{color:#535353;}
+.reda{color:#8E200C}
+.graya{color:#AAAAAA}
+.red,.red:link,.red:visited{color:#855118}
+.red:hover{color:#855118;text-decoration:underline}
+
+.white,.white:link,.white:visited{color:#FFFFFF}
+.white:hover{color:#FFFFFF;text-decoration:none;}
+
+/* 字体大小 */
+.f12px{font-size:12px}
+.f14px{font-size:14px}
+.f24px{font-size:24px;font-family:'宋体';font-weight:bold;}
+/*常用方法*/
+.show{display:block}
+.hidden{display:none}
+.hand{cursor:pointer;}
+.fontArial{font-family:'Arial';}
+.b{font-weight:bold;}
+.marg{margin-top:5px;}
+.lh{line-height:22px;}
+
+/* CSS空白 */
+
+.blank3{margin:0 auto;height:3px;font-size:1px;clear:both;}
+.blank5{margin:0 auto;height:5px;font-size:1px;clear:both;}
+.blank10{margin:0 auto;height:10px;font-size:1px;clear:both;}
+
+/*头部属性*/
+.top{width:1024px;clear:both;overflow:hidden;margin:0px auto;height:335px;background:url("../images/top.jpg")  no-repeat left top;}
+.top1{width:1024px;clear:both;overflow:hidden;margin:0px auto;height:373px;background:url("../images/bg02.png")/*tpa=http://www.zhongyi.com/templets/default/images/bg02.png*/ no-repeat left top;}
+.logo_top{width:980px;clear:both;overflow:hidden;margin:0px auto;height:71px;}
+.logo{float:left;width:340px;overflow:hidden;height:71px;}
+.logo a{display:block;width:340px;height:71px;cursor:hand;}
+
+.topright{float:right;width:395px;overflow:hidden;margin-top:27px;font-size:12px;color:#224B1F;text-align:left;height:19px;}
+.home{float:left;width:40px;overflow:hidden;height:19px;margin-left:10px;}
+.home a{display:block;width:40px;height:19px;cursor:hand;}
+.english{float:right;width:55px;overflow:hidden;height:19px;}
+.english a{display:block;width:55px;height:19px;cursor:hand;}
+.search{float:left;width:286px;overflow:hidden;height:19px;}
+.sear{float:left;overflow:hidden;width:215px;height:19px;margin-left:5px;}
+.sear1{float:left;overflow:hidden;width:23px;height:19px;margin-left:10px;}
+.gjsearch{float:right;width:30px;overflow:hidden;height:19px;}
+.gjsearch a{display:block;width:30px;height:19px;cursor:hand;}
+
+.input{width:215px;height:15px;_height:14px;background:#F7F2DE;border:0px;text-align:center;color:#895417;font-size:12px;}
+/*导航属性*/
+.menu{width:980px;clear:both;overflow:hidden;margin:0px auto;height:42px;}
+.menu ul{margin:0px;}
+.menu li{float:left;width:69px;text-align:center;overflow:hidden;line-height:40px;margin-left:20px;}
+.menu li a{display:block;width:69px;height:40px;cursor:hand;}
+
+/*标准尾样式开始*/
+.foot{width:980px;clear:both;overflow:hidden;margin:0px auto;height:170px;background:url("../images/footbg.png")/*tpa=http://www.zhongyi.com/templets/default/images/footbg.png*/ repeat-x left top;text-align:center;line-height:26px;font-size:14px;}
+.foot p{margin:20px;margin-bottom:10px;}
+.foottxt{width:980px;clear:both;overflow:hidden;margin:10px auto;}
+.foottxtl{overflow:hidden;text-align:center;line-height:22px;font-size:12px;margin-left:20px;}
+.foottxtr{width:200px;float:right;overflow:hidden;text-align:left;}
+
+/*Layout.css页面属性*/
+.box{clear:both;width:1024px;height:0px auto;margin:0px auto;background:#FFF;text-align: center;}
+.area{clear:both;width:980px;height:0px auto;margin:0px auto;}
+.colR260{float:left;width:260px;overflow:hidden;text-align:left;}
+.colL710{float:left;width:720px;overflow:hidden;text-align:left;}
+.colL320{float:left;;overflow:hidden;text-align:center;}
+.colC380{float:right;width: 326px;overflow:hidden;text-align:left;margin-left:10px;}
+.knowledge{width: 756px;overflow:hidden;text-align:left;margin-left:10px;}
+.colL210{float:left;width:210px;overflow:hidden;text-align:left;}
+.colR756{margin: 0px auto 20px;width:756px;height: 500px;overflow:hidden;text-align:center;}
+.introduce_colR756{margin: 0px auto 20px;width:756px;height: 625px;overflow:hidden;text-align:center;}
+.colC370{float:left;width:370px;overflow:hidden;text-align:left;margin-left:12px;}
+.colR370{float:right;width:370px;overflow:hidden;text-align:left;}
+.colL370{float:left;width:370px;overflow:hidden;text-align:left;}

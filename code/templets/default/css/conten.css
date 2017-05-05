@@ -1,0 +1,120 @@
+@charset "utf-8";
+/*栏目导航样式开始*/
+.listlm{float:left;width:210px;overflow:hidden;height:58px;background:url("../images/erj/erjlmbg.jpg")/*tpa=http://www.zhongyi.com/templets/default/images/erj/erjlmbg.jpg*/ no-repeat left top;text-align:center;line-height:58px;font-size:20px;font-weight:bold;color:#FFF;font-family:"微软雅黑"}
+.list_title{float:left;width:210px;overflow:hidden;background:url("../images/erj/xwzx.gif")/*tpa=http://www.zhongyi.com/templets/default/images/erj/xwzx.gif*/ repeat left top;height:59px;}
+.erjdhc{clear:both;height:0px auto;margin:0px auto;overflow:hidden;width:210px;text-align:center;}
+.erjdhc ul{margin:0 0;}
+.erjdhc li{clear:both;list-style-type:none;line-height:30px;text-align:center;font-size:14px;font-weight:bold;background:url("../images/erj/menu_bg.gif")/*tpa=http://www.zhongyi.com/templets/default/images/erj/menu_bg.gif*/ no-repeat center top;}
+.mred,.mred:link,.mred:visited{display:block;width:210px;height:30px;color:#845217;}
+.mred:hover{display:block;width:210px;height:30px;color:#845217;text-decoration:none;}
+.morg,.morg:link,.morg:visited{display:block;width:210px;height:30px;color:#595959;}
+.morg:hover{display:block;width:210px;height:30px;color:#595959;text-decoration:none;}
+/*推荐内容样式开始*/
+.tj_title{float:left;overflow:hidden;width:210px;background:url("../images/erj/erjlm_bg.gif")/*tpa=http://www.zhongyi.com/templets/default/images/erj/erjlm_bg.gif*/ no-repeat left top;height:35px;color:#FFF;font-size:14px;font-weight:bold;line-height:35px;padding-left:20px;}
+.tj_box{float:left;overflow:hidden;width:208px;border:1px #D7BD72 solid;}
+.tj_content{float:left;overflow:hidden;width:190px;margin:10px 8px;}
+.tj_content ul{margin:0 0;}
+.tj_content li{clear:both;overflow:hidden;list-style-type:none;font-size:12px;line-height:20px;color:#855118;background:url("../images/icon02.gif")/*tpa=http://www.zhongyi.com/templets/default/images/icon02.gif*/ left center no-repeat;padding:0 0 0 10px;}
+.tj_content li a{color:#855118;text-decoration:none;}
+/*370样式开始*/
+.mtzy_title{float:left;overflow:hidden;width:370px;background:url("../images/erj/370x35menubg.png")/*tpa=http://www.zhongyi.com/templets/default/images/erj/370x35menubg.png*/ no-repeat left top;height:35px;}
+.mtzy_title span{float:left;overflow:hidden;font-weight:bolder;font-size:14px;color:#855118;line-height:35px;text-align:left;margin-left:50px;}
+.mtzy_title span a:link,.mtzy_title span a:visited,.mtzy_title span a:hover,.mtzy_title label a:link,.mtzy_title label a:visited,.mtzy_title label a:hover{color:#855118;text-decoration:none;}
+.mtzy_title label{float:right;overflow:hidden;width:50px;font-size:12px;color:#855118;line-height:35px;text-align:left;}
+.mtzybt{float:left;overflow:hidden;width:370px; height:5px; background:url("../images/erj/370x35bottom.png")/*tpa=http://www.zhongyi.com/templets/default/images/erj/370x35bottom.png*/ no-repeat 0 0px; }
+
+.mtzy_box{float:left;overflow:hidden;width:368px;border-left:1px #D5D5D5 solid;border-right:1px #D5D5D5 solid;}
+.mtzy_content{float:left;overflow:hidden;width:340px;margin:10px 8px;}
+.mtzy_content ul{margin:0 0;}
+.mtzy_content li{clear:both;overflow:hidden;list-style-type:none;font-size:12px;line-height:24px;background:url("../images/icon02.gif")/*tpa=http://www.zhongyi.com/templets/default/images/icon02.gif*/ left center no-repeat;padding:0 0 0 10px;}
+
+
+/*精彩专题样式开始*/
+.jczt_title{float:left;overflow:hidden;width:756px;background:url("../images/erj/756x35menubg.png")/*tpa=http://www.zhongyi.com/templets/default/images/erj/756x35menubg.png*/ no-repeat left top;height:35px;}
+.jczt_title span{float:left;overflow:hidden;font-weight:bolder;font-size:14px;color:#855118;line-height:35px;text-align:left;margin-left:50px;}
+.jczt_title span a:link,.jczt_title span a:visited,.jczt_title span a:hover,.jczt_title label a:link,.jczt_title label a:visited,.jczt_title label a:hover{color:#855118;text-decoration:none;}
+.jczt_title label{float:right;overflow:hidden;width:50px;font-size:12px;color:#855118;line-height:35px;text-align:left;}
+.jcztbt{float:left;overflow:hidden;width:756px; height:5px; background:url("../images/erj/756x35bottom.png")/*tpa=http://www.zhongyi.com/templets/default/images/erj/756x35bottom.png*/ no-repeat 0 0px; }
+
+
+.jcztpic{float:left;overflow:hidden;width:754px;border-left:1px #D5D5D5 solid;border-right:1px #D5D5D5 solid;}
+.jcztpic ul{margin:0 0px;}
+.jcztpic li{float:left;overflow:hidden;list-style-type:none;width:125px;line-height:24px;font-size:12px;margin:7px 0px 7px 20px;text-align:center;color:#855118;}
+.jcztpic li a{color:#855118;text-decoration:none;}
+.jcztpic li p{float:left;overflow:hidden;width:123px;text-align:center;border:1px #D4D3CF solid;}
+.jcztpic li p img{padding:2px;}
+
+
+.jcztc11{float:left;overflow:hidden;width:754px;border-left:1px #D5D5D5 solid;border-right:1px #D5D5D5 solid;}
+.jcztc11 ul{margin:5px 10px;}
+.jcztc11 li{clear:both;overflow:hidden;list-style-type:none;font-size:12px;line-height:20px;color:#855118;background:url("../images/icon02.gif")/*tpa=http://www.zhongyi.com/templets/default/images/icon02.gif*/ left center no-repeat;padding:0 0 0 10px;}
+
+ 
+/*院报样式开始*/
+.ybpic{float:left;overflow:hidden;width:754px;border-left:1px #D5D5D5 solid;border-right:1px #D5D5D5 solid;}
+.ybpicl{margin-left:20px;overflow:hidden;float:left;width:32px;height:170px;background:url("../images/erj/yb_left.gif")/*tpa=http://www.zhongyi.com/templets/default/images/erj/yb_left.gif*/ no-repeat center center; }
+.ybpicr{margin-right:20px;overflow:hidden;float:right;width:32px;height:170px;background:url("../images/erj/yb_right.gif")/*tpa=http://www.zhongyi.com/templets/default/images/erj/yb_right.gif*/ no-repeat center center; }
+.ybpic ul{margin:0 0;} 
+.ybpic li{float:left;overflow:hidden;list-style-type:none;width:104px;line-height:24px;font-size:12px;margin:7px 0px 7px 20px;text-align:center;color:#855118;}
+.ybpic li a{color:#855118;text-decoration:none;}
+.ybpic li p{float:left;overflow:hidden;width:100px;text-align:center;border:1px #D4D3CF solid;}
+.ybpic li p img{padding:1px;}
+/*科室一览栏目样式开始*/
+.kszj{float:left;width:724px;overflow:hidden;background:url("../images/erj/zjbg.gif")/*tpa=http://www.zhongyi.com/templets/default/images/erj/zjbg.gif*/ repeat-x left top;margin:15px;}
+.kszj_title span{float:left;overflow:hidden;margin-left:50px;font-weight:bolder;font-size:14px;color:#855118;line-height:28px;text-align:left;}
+.kszj_title span a:link,.kszj_title span a:visited,.kszj_title span a:hover,.kszj_title label a:link,.kszj_title label a:visited,.kszj_title label a:hover{color:#855118;text-decoration:none;}
+.kszj_title label{float:right;overflow:hidden;width:50px;font-size:12px;color:#855118;line-height:28px;text-align:left;}
+.kszj_content{overflow:hidden;float:left;width:700px; margin:10px 0 0 13px;display:inline;line-height:24px;}
+.kszj_content img{overflow:hidden;margin:10px;}
+.kszj_content p{overflow:hidden;width:450px;margin:10px 10px 10px 0;line-height:24px;}
+.kszj_content ul{margin:0 0;}
+.kszj_content li{float:left;overflow:hidden;width:340px;list-style-type:none;line-height:24px;background:url("../images/icon01.gif")/*tpa=http://www.zhongyi.com/templets/default/images/icon01.gif*/ left center no-repeat;padding:0 0 0 10px;}
+.zj_content{overflow:hidden;float:left;width:700px; margin:10px 0 0 13px;display:inline;line-height:24px;}
+.zj_content ul{margin:0 0;}
+.zj_content li{float:left;overflow:hidden;list-style-type:none;line-height:24px;margin:0 0 0 20px;}
+
+.zjjs_h{overflow:hidden;float:left;width:700px; margin:10px 0 0 13px;display:inline;line-height:24px;}
+.zjjs_pic{overflow:hidden;float:left;width:95px;margin:3px 5px;_margin-left:20px;display:inline;text-align:left;}
+.zjjs_content{overflow:hidden;float:right;width:550px;display:inline;}
+.zjjs_content ul{float:left;overflow:hidden;margin:0px;padding:0;display:inline;}
+.zjjs_content li{float:left;overflow:hidden;width:260px;display:inline;list-style-type:none;line-height:30px;text-align:left;}
+
+
+/*列表内容样式开始*/
+.kszjbox,.content{float:left;overflow:hidden;width:754px;border-left:1px #D5D5D5 solid;border-right:1px #D5D5D5 solid;}
+.content ul{margin:15px;}
+.content li{float:left;overflow:hidden;width:710px;list-style-type:none;line-height:25px;text-align:left;}
+.content li p{float:left;overflow:hidden;width:580px;list-style-type:none;line-height:25px;background:url("../images/icon02.gif")/*tpa=http://www.zhongyi.com/templets/default/images/icon02.gif*/ left center no-repeat;padding:0 0 0 10px; font-size:14px;text-align:left;}
+.content li label{float:right;overflow:hidden;list-style-type:none;width:100px;overflow:hidden;font-size:12px;line-height:25px;color:#B1B1B1;}
+.line{background:url("../images/erj/lm_line.gif")/*tpa=http://www.zhongyi.com/templets/default/images/erj/lm_line.gif*/ no-repeat left center;height:20px;}
+.lmdh{float:left;overflow:hidden;width:756px;background:url("../images/erj/756x35menubg.png")/*tpa=http://www.zhongyi.com/templets/default/images/erj/756x35menubg.png*/ no-repeat left top;height:35px;}
+.lmdh span{float:left;overflow:hidden;font-size:14px;line-height:35px;margin-left:50px;display:inline;}
+.lmdh span a{color:#855118;text-decoration:none;font-weight:bold;}
+
+
+
+.content_heada{float:left;overflow:hidden;width:664px;border:1px #D8D8D8 solid;text-align:left;height:34px;}
+.content_headc{float:left;overflow:hidden;width:460px;text-align:left;margin:8px 10px}
+.content_headr{float:right;overflow:hidden;width:100px;text-align:left;margin:8px 10px}
+
+.artbox{float:left;overflow:hidden;width:754px;height: 450px;border-left:1px #D5D5D5 solid;border-right:1px #D5D5D5 solid;}
+.introduce_artbox{float:left;overflow:hidden;width:754px;height: 585px;border-left:1px #D5D5D5 solid;border-right:1px #D5D5D5 solid;}
+
+
+
+.info{float:left;overflow:hidden;width:700px;height: 5px;font-family:Verdana,宋体;color:#835218;background:url("../images/erj/lm_line.gif")/*tpa=http://www.zhongyi.com/templets/default/images/erj/lm_line.gif*/ no-repeat left bottom;margin:0px 20px;text-align:center;line-height:35px;}
+h1{float:left;overflow:hidden;width:700px;font-family:微软雅黑;font-size:20px;color:#835218;margin:10px 20px;line-height:40px; font-weight:bold;text-align:center;}
+.article{float:left;
+	width:680px;	
+    font-family:Verdana,仿宋体;
+	font-size:14px;
+	line-height:24px;
+	text-align:left;
+    min-height:500px;
+	margin:10px 20px;
+	color:#000!important;
+	table-layput:fixed;
+text-indent:2em;
+	}
+
+.page{width:630px;clear:both;overflow:hidden;text-align:left;line-height:24px;margin:5px 0 5px 20px;}
